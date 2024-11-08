@@ -1,0 +1,24 @@
+{
+  "name": "newbot",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "node-telegram-bot-api": "^0.66.0",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^5.1.1",
+    "winston": "^3.16.0"
+  },
+  "description": ""
+}
