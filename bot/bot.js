@@ -2,6 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const { downloadFile, processImage, processPDF, verifyText, sendAdminLog } = require('./fileUtils');
 const { remarketingMessage } = require('../routes');
 const logger = require('./logger');
+const path = require('path');
 
 // Configurações do bot e do logger
 const token = '7929856019:AAFnFKmDlve3Zf36YpztGwmlyuyFg8bM8Hw';
